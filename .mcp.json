@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "peachcard": {
+      "type": "http",
+      "url": "https://peachcard.peachstone.ai/mcp"
+    }
+  }
+}

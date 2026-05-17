@@ -1,0 +1,12 @@
+{
+  "name": "peachcard",
+  "version": "0.1.0",
+  "description": "Create and review spaced-repetition flashcards with PeachCard (FSRS scheduling). Bundles the MCP server registration and a card-design skill so Claude writes good cards by default.",
+  "author": {
+    "name": "Philipp Pahl"
+  },
+  "homepage": "https://peachcard.peachstone.ai",
+  "repository": "https://github.com/philipppahl/peachcard-plugin",
+  "license": "MIT",
+  "keywords": ["srs", "flashcards", "spaced-repetition", "anki", "fsrs", "learning"]
+}
