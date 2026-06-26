@@ -8,6 +8,17 @@ A Claude Code plugin for [PeachCard](https://peachcard.peachstone.ai) — a spac
 - **Ships a `card-design` skill** so Claude writes well-formed cards by default: atomic, short, list-aware (the `<br>` gotcha is the #1 thing the skill teaches), and tailored to your level instead of textbook prose.
 - **MCP tools** for creating decks, adding cards (single or batched), reviewing, searching, and seeing stats.
 
+## Install in Codex
+
+Add this repository as a Codex plugin marketplace, then install the PeachCard plugin:
+
+```
+codex plugin marketplace add git@github.com:philipppahl/peachcard-plugin.git --ref main
+codex plugin add peachcard@peachcard
+```
+
+Start a new Codex thread after installation so the PeachCard MCP tools and `card-design` skill are loaded.
+
 ## Install
 
 In any Claude Code session (CLI, desktop GUI, or IDE extension):

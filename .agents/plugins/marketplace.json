@@ -1,0 +1,21 @@
+{
+  "name": "peachcard",
+  "interface": {
+    "displayName": "PeachCard"
+  },
+  "plugins": [
+    {
+      "name": "peachcard",
+      "source": {
+        "source": "url",
+        "url": "git@github.com:philipppahl/peachcard-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

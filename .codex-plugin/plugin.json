@@ -1,0 +1,39 @@
+{
+  "name": "peachcard",
+  "version": "0.1.0",
+  "description": "Create and review spaced-repetition flashcards with PeachCard (FSRS scheduling). Bundles the MCP server registration and a card-design skill so Codex writes good cards by default.",
+  "author": {
+    "name": "Philipp Pahl"
+  },
+  "homepage": "https://peachcard.peachstone.ai",
+  "repository": "https://github.com/philipppahl/peachcard-plugin",
+  "license": "MIT",
+  "keywords": [
+    "srs",
+    "flashcards",
+    "spaced-repetition",
+    "anki",
+    "fsrs",
+    "learning"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "PeachCard",
+    "shortDescription": "Create and review FSRS flashcards from Codex.",
+    "longDescription": "PeachCard is an Anki-like spaced-repetition flashcard app using FSRS scheduling. This plugin registers the PeachCard MCP server and adds a card-design skill so Codex creates short, atomic, reviewable cards by default.",
+    "developerName": "Philipp Pahl",
+    "category": "Productivity",
+    "capabilities": [
+      "MCP",
+      "Skills"
+    ],
+    "websiteURL": "https://peachcard.peachstone.ai",
+    "defaultPrompt": [
+      "Add PeachCard flashcards about this topic.",
+      "Show me which PeachCard cards are due.",
+      "Create a PeachCard deck with atomic cards."
+    ],
+    "brandColor": "#F97316"
+  }
+}
